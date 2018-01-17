@@ -8,6 +8,11 @@ a {
 	color: white;
 }
 
+#heading a {
+	display: block;
+	margin-bottom: 20px;
+}
+
 h1{
 	font-size: 70px;
 	font-weight: bold;
@@ -42,9 +47,10 @@ p {
 .footer {
 	background-color: dimgray;
 	color: white;
-	text-align: left;
+	text-align: left
 }
 
-.footer p {
+.footer p{
 	font-size: 11px;
+	display: inline;
 }
